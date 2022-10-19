@@ -44,8 +44,10 @@ def generate_sales_values(count):
 
 
 def main():
-    """Shows basic usage of the Sheets API.
-    Prints values from a sample spreadsheet.
+    """
+    Creates the access service to the spreadsheets.
+    Generates some random data and writes it in the required file
+    This script was made together with the spreadsheet file containing 2 Sheets that update automatically when the script is run locally
     """
     creds = None
     # The file credentials.json stores the user's access and refresh tokens, and is
